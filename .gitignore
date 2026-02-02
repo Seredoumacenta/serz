@@ -1,0 +1,43 @@
+# Configuration
+/config.php
+/config.local.php
+/.env
+
+# Logs
+/logs/
+*.log
+
+# Uploads
+/assets/uploads/*
+!/assets/uploads/.htaccess
+
+# Cache
+/cache/
+/tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.sql
+*.sqlite
+
+# Vendor
+/vendor/
+/node_modules/
+
+# Backup
+*.bak
+*.backup
+
+# SSL
+*.pem
+*.key
+*.crt
